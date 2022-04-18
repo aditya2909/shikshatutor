@@ -1,0 +1,115 @@
+
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* home section */
+#home{
+    height: 370px;
+    padding: 3px 68px;
+}
+#home h1{
+    font-size: 2.3rem;
+}
+#home::before{
+    height: 520px;
+    top: 120px;
+}
+#home p{
+    font-size: 10px;
+}
+/* Service section */
+#service{
+    flex-direction: column;
+    margin: 10px 40px -10px;
+}
+#service::before{
+    height: 290%;
+}
+#services::before{
+    height: 285%;
+    top: 715px;
+}
+#service .box{
+    padding: 14px;
+    margin: 2px 15px;
+    margin-bottom: 2px;
+}
+#service .box img{
+    height: 140px;
+    width: 145px;
+}
+#college::before{
+    height: 265%;
+    top: 3425px;
+}
+#service-college{
+    margin: 10px 0px 50px;
+    flex-direction: column;
+}
+#service-college .box{
+    margin: 5px 25px;
+    padding: 16px 90px; 
+}
+#service-college .box img{
+    width: 170px;  
+}
+/* Client section */
+.client{
+    flex-wrap: wrap;
+}
+.primaryh{
+    font-size: 25px;
+}
+.client img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+#contact form{
+    width: 80%;
+}
+/* Utility section */
+.primary{
+    font-size: 25px;
+    padding: 75px 0px 10px 0px
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.style{
+    padding: 0px;
+}
+.boards{
+    flex-direction: column;
+}
+.boards .board-box img {
+    width: 175px;
+}
+.boards .board-box {
+    margin: 0px 50px 33px 50px;
+}
+#home h1.secondary,
+#home h1.tertiary{
+    font-size: 4.8rem;
+}
+#btn{
+    margin: 40px 0px 0px 0px;
+}
+#services{
+    padding: 60px 0px 0px 0px;
+}
+#contact::before {
+    height: 80%;
+    top: 6895px;
+}
+.padd{
+    padding: 100px 0px 0px 0px;
+}
